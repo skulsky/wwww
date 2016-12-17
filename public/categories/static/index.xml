@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Алексей Скульский. Тексты. Рассказы</title>
-    <link>https://skulsky.github.io/skulsky.www/</link>
-    <description>Recent content on Алексей Скульский. Тексты. Рассказы</description>
+    <title>Static on Алексей Скульский. Тексты. Рассказы</title>
+    <link>https://skulsky.github.io/skulsky.www/categories/static/</link>
+    <description>Recent content in Static on Алексей Скульский. Тексты. Рассказы</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 17 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://skulsky.github.io/skulsky.www/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://skulsky.github.io/skulsky.www/categories/static/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>О себе</title>
@@ -31,82 +31,6 @@
 &lt;p&gt;&lt;strong&gt;WHERE&lt;/strong&gt;?&amp;nbsp;Все события имеют отношение к Нижнему Новгороду и его обитателям.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;WHY&lt;/strong&gt;?Сам не знаю, зачем это мне. Просто интересно. И еще&amp;hellip; Однажды, в начале 70-х, я присутствовал на защите кандидатской диссертации, тема&amp;nbsp;&amp;mdash; лечение приступов бронхиальной астмы иглоукалыванием. Из работы было видно, что метод не сильно эффективный и толку от него не будет. Оппоненты разбили метод в пух и прах. И тут встал профессор Вогралик (крупнейший специалист по иглорефлексотерапии) и сказал, примерно, следующее. Да, метод мало пригоден для экстренной терапии. Да, о широком использовании его нет речи. Но даже если удастся помочь хотя бы одному задыхающемуся на ваших глазах больному, то я &amp;laquo;за&amp;raquo; этот метод и &amp;laquo;за&amp;raquo; эту диссертацию. И все согласились.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Just another sample post</title>
-      <link>https://skulsky.github.io/skulsky.www/posts/newest/</link>
-      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://skulsky.github.io/skulsky.www/posts/newest/</guid>
-      <description>
-
-&lt;h2 id=&#34;first-heading&#34;&gt;First Heading&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.&lt;/p&gt;
-
-&lt;h3 id=&#34;sub&#34;&gt;Sub&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, numquam ipsa ad! Quasi, deleniti quae sint consequatur error corporis dicta inventore alias soluta dignissimos? Molestias, quia ab deserunt repellat ut.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://skulsky.github.io/skulsky.www/posts/middle/</link>
-      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://skulsky.github.io/skulsky.www/posts/middle/</guid>
-      <description>
-
-&lt;h2 id=&#34;sample-post-1&#34;&gt;Sample Post 1&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&#34;sub-heading&#34;&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, non, ratione, molestiae illo optio quia sequi id fuga natus nihil ad architecto dolor alias ex sunt iste aperiam eius itaque.&lt;/p&gt;
-
-&lt;h2 id=&#34;foo&#34;&gt;foo&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://skulsky.github.io/skulsky.www/posts/oldest/</link>
-      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://skulsky.github.io/skulsky.www/posts/oldest/</guid>
-      <description>
-
-&lt;h2 id=&#34;sample-post-1&#34;&gt;Sample Post 1&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;h3 id=&#34;sub-heading&#34;&gt;Sub-heading&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, non, ratione, molestiae illo optio quia sequi id fuga natus nihil ad architecto dolor alias ex sunt iste aperiam eius itaque.&lt;/p&gt;
-
-&lt;h2 id=&#34;foo&#34;&gt;foo&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.&lt;/p&gt;
 </description>
     </item>
     
