@@ -1,1 +1,2 @@
-# wwww
+# skulsky.www
+skulsky.ru

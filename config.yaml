@@ -1,0 +1,11 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "https://skulsky.github.io/"
+title: "Алексей Скульский. Тексты. Рассказы"
+canonifyurls: true
+theme: "skulsky"
+...
