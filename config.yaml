@@ -2,10 +2,13 @@
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
-indexes:
+taxonomies:
   category: "categories"
 baseurl: "https://skulsky.github.io/skulsky.www/"
 title: "Алексей Скульский. Тексты. Рассказы"
 canonifyurls: true
 theme: "skulsky"
+paginate: 5
+params:
+  description: "Зарисовки и размышления"
 ...
