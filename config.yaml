@@ -4,7 +4,7 @@ layoutdir: "layouts"
 publishdir: "public"
 taxonomies:
   category: "categories"
-baseurl: "https://skulsky.github.io/skulsky.www/"
+baseurl: "https://skulsky.ru/"
 title: "Алексей Скульский. Тексты. Рассказы"
 canonifyurls: true
 theme: "skulsky"
