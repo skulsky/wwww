@@ -1,0 +1,35 @@
+<!--
+  This file is responsible for rendering a single blog post.
+-->
+
+{{ partial "head.html" . }}
+
+<body>
+
+<!-- start container -->
+<div id="container">
+<!-- start content -->
+    <div id="content">
+        <h1>{{ .Title }}</h1>
+        <p>
+            {{ .Content }}
+        </p>
+        <h5 id="date"> {{ .Date.Format "02-01-2006" }} </h5>
+        <p>
+            &nbsp;
+        </p>
+
+        <p>
+            &nbsp;
+        </p>
+    </div>
+<!-- end content -->
+
+{{ partial "sidebar.html" . }}
+
+</div>
+<!-- end container -->
+
+{{ partial "header.html" . }}
+
+{{ partial "footer.html" . }}

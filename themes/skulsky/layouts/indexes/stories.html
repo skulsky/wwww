@@ -1,0 +1,45 @@
+<!--
+  This file is used to render a list of all posts on our blog.
+-->
+
+{{ partial "head.html" . }}
+
+<body>
+
+<!-- start container -->
+<div id="container">
+    <!-- start content -->
+    <div id="content">
+
+        {{ range (where (.Paginator 5).Pages "Type" "stories") }}
+
+            {{ .Render "summary" }}
+
+        {{ end }}
+
+        <div class="paginator" id="pagination">
+        {{ if .Paginator.HasPrev }}
+            <a class="btn btn-default" href="{{ .Paginator.Prev.URL }}">
+        <&nbsp;5&nbsp;предыдущих</a>
+        {{ end }} {{ if .Paginator.HasNext }}
+            <a class="btn btn-default" href="{{ .Paginator.Next.URL }}">
+        5&nbsp;следующих&nbsp;></a>
+        {{ end }}
+        </div>
+
+<script type="text/javascript">paginator = new Paginator('pagination', {{ .Paginator.TotalPages }}, {{ .Paginator.PageSize }}, {{ .Paginator.PageNumber }}, 'stories/page/', '');</script>
+
+        <p>
+            &nbsp;
+        </p>
+    </div>
+    <!-- end content -->
+
+{{ partial "sidebar.html" . }}
+
+</div>
+<!-- end container -->
+
+{{ partial "header.html" . }}
+
+{{ partial "footer.html" . }}
