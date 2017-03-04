@@ -1,0 +1,60 @@
+<!-- This file is the homepage of the website. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      This section just sets up some metadata for the website.
+
+      It probably does not need to be changed.
+    -->
+    <meta charset="utf-8">
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+    {{ partial "head_includes.html" . }}
+</head>
+<body>
+
+<!-- start container -->
+<div id="container">
+<!-- start content -->
+    <div id="content">
+
+        <p>
+            В толковом словаре Ушакова понятие «текст» определяется как «всякая запечатленная в письменности или в памяти речь, написанные или сказанные кем-н. слова, к-рые можно воспроизвести, повторить в том же виде».  Именно как к текстам я отношусь к тому, что пишу и публикую на этом сайте. Литературу оставим писателям. Эти тексты и есть моя биография.
+        </p>
+        
+        {{ if gt (len (where .Site.Pages "Section" "blog")) 0 }}
+        <hr style="margin-bottom: 4em; border: 0 !important" />
+        <div>
+            <h2>Недавние записи блога</h2>
+            {{ range first 3 (where .Site.Pages "Section" "blog") }}
+            {{ .Render "summary"}}
+            {{ end }}
+        </div>
+        {{ end }}
+
+        {{ if gt (len (where .Site.Pages "Section" "stories")) 0 }}
+        <hr style="margin-bottom: 4em; border: 0 !important" />
+        <div>
+            <h2>Недавние рассказы</h2>
+            {{ range first 3 (where .Site.Pages "Section" "stories") }}
+            {{ .Render "summary"}}
+            {{ end }}
+        </div>
+        {{ end }}
+
+    </div>
+<!-- end content -->
+
+{{ partial "sidebar.html" . }}
+
+</div>
+<!-- end container -->
+{{ partial "header.html" . }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,14 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+taxonomies:
+  category: "categories"
+baseurl: "http://skulsky.ru/"
+title: "Алексей Скульский. Тексты. Рассказы"
+canonifyurls: true
+theme: "skulsky"
+paginate: 5
+params:
+  description: "Зарисовки и размышления"
+...
