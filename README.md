@@ -1,2 +1,0 @@
-# skulsky.www
-skulsky.ru
