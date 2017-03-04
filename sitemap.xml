@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://skulsky.ru/</loc>
-    <lastmod>2017-03-04T11:02:46+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://skulsky.ru/blog/2017-03-04-zhit-stalo-proshe/</loc>
     <lastmod>2017-03-04T11:02:46+00:00</lastmod>
   </url>
@@ -584,6 +579,83 @@
   <url>
     <loc>http://skulsky.ru/blog/2009-04-12-elekricheskoe/</loc>
     <lastmod>2009-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/blog/</loc>
+    <lastmod>2016-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/blog/</loc>
+    <lastmod>2017-03-04T11:02:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/boring/</loc>
+    <lastmod>2014-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/nachalo/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/second/</loc>
+    <lastmod>2014-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/static/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/stories/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/template/</loc>
+    <lastmod>2014-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/tv/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/various/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/</loc>
+    <lastmod>2017-03-04T11:02:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://skulsky.ru/categories/%D1%80%D0%B5%D0%BB%D0%B8%D0%B3%D0%B8%D1%8F/</loc>
+    <lastmod>2012-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
