@@ -1,12 +1,13 @@
+---
 blog:
-    title: "Блог"
-    description: "Короткие заметки о насушном"
-    short: Заметка
+  title: "Блог"
+  description: "Короткие заметки о насушном"
+  short: "Заметка"
 stories:
-    title: "Рассказы"
-    description: "Рассказы, были и небылицы"
-    short: Рассказ
+  title: "Рассказы"
+  description: "Рассказы, были и небылицы"
+  short: "Рассказ"
 various:
-    title: "Разное"
-    description: "Зарисовки и размышления о разном"
-    short: Зарисовка
+  title: "Разное"
+  description: "Зарисовки и размышления о разном"
+  short: "Зарисовка"
