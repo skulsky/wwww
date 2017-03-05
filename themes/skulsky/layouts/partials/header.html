@@ -4,7 +4,7 @@
 		<span class="logo-content">
 		<div class="portfolio-logo"></div>
 		<span class="mdl-layout__title"><a href="{{ .Site.BaseURL }}" class="header">{{ .Site.Title }}</a></span>
-		<span class="mdl-layout__subtitle">{{ if .IsPage }}&laquo;{{ .Title }}&raquo;. {{if (eq .Section "blog")}}{{ .Site.Data.nodes.blog.short }}{{ end }}{{if (eq .Section "stories")}}{{ .Site.Data.nodes.stories.short }}{{ end }}{{ else }}{{ .Site.Params.description }}{{ end }}</span>
+		<span class="mdl-layout__subtitle">{{ if .IsPage }}&laquo;{{ .Title }}&raquo;{{if (eq .Section "blog")}}. {{ .Site.Data.nodes.blog.short }}{{ end }}{{if (eq .Section "stories")}}. {{ .Site.Data.nodes.stories.short }}{{ end }}{{ else }}{{ .Site.Params.description }}{{ end }}</span>
 		</span>
 		</div>
 		<div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
