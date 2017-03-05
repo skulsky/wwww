@@ -1,15 +1,6 @@
-<!--
-  This file is used to render a list of all posts on our blog.
--->
-
 {{ partial "head.html" . }}
 
-<body>
-
-<!-- start container -->
-<div id="container">
-    <!-- start content -->
-    <div id="content">
+{{partial "body_before.html" . }}
 
         {{ range (where (.Paginator 5).Pages "Type" "stories") }}
 
@@ -29,17 +20,4 @@
 
 <script type="text/javascript">paginator = new Paginator('pagination', {{ .Paginator.TotalPages }}, {{ .Paginator.PageSize }}, {{ .Paginator.PageNumber }}, 'stories/page/', '');</script>
 
-        <p>
-            &nbsp;
-        </p>
-    </div>
-    <!-- end content -->
-
-{{ partial "sidebar.html" . }}
-
-</div>
-<!-- end container -->
-
-{{ partial "header.html" . }}
-
-{{ partial "footer.html" . }}
+{{ partial "body_after.html" . }}

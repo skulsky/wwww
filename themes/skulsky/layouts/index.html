@@ -1,59 +1,40 @@
-<!-- This file is the homepage of the website. -->
-
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <!--
-      This section just sets up some metadata for the website.
-
-      It probably does not need to be changed.
-    -->
     <meta charset="utf-8">
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ .Site.Params.about }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="canonical" href="{{ .Permalink }}">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-
     {{ partial "head_includes.html" . }}
 </head>
-<body>
-
-<!-- start container -->
-<div id="container">
-<!-- start content -->
-    <div id="content">
+{{partial "body_before.html" . }}
 
         <p>
-            В толковом словаре Ушакова понятие «текст» определяется как «всякая запечатленная в письменности или в памяти речь, написанные или сказанные кем-н. слова, к-рые можно воспроизвести, повторить в том же виде».  Именно как к текстам я отношусь к тому, что пишу и публикую на этом сайте. Литературу оставим писателям. Эти тексты и есть моя биография.
+{{ .Site.Params.about }}
         </p>
         
-        {{ if gt (len (where .Site.Pages "Section" "blog")) 0 }}
-        <hr style="margin-bottom: 4em; border: 0 !important" />
-        <div>
-            <h2>Недавние записи блога</h2>
-            {{ range first 3 (where .Site.Pages "Section" "blog") }}
-            {{ .Render "summary"}}
-            {{ end }}
-        </div>
-        {{ end }}
-
-        {{ if gt (len (where .Site.Pages "Section" "stories")) 0 }}
-        <hr style="margin-bottom: 4em; border: 0 !important" />
-        <div>
-            <h2>Недавние рассказы</h2>
-            {{ range first 3 (where .Site.Pages "Section" "stories") }}
-            {{ .Render "summary"}}
-            {{ end }}
-        </div>
-        {{ end }}
-
-    </div>
-<!-- end content -->
-
-{{ partial "sidebar.html" . }}
-
+{{ if gt (len (where .Site.Pages "Section" "blog")) 0 }}
+<hr style="margin-bottom: 4em; border: 0 !important" />
+<div>
+	<h2>Недавние записи блога</h2>
+	{{ range first 3 (where .Site.Pages "Section" "blog") }}
+	{{ .Render "summary"}}
+	{{ end }}
 </div>
-<!-- end container -->
-{{ partial "header.html" . }}
+{{ end }}
 
-{{ partial "footer.html" . }}
+{{ if gt (len (where .Site.Pages "Section" "stories")) 0 }}
+<hr style="margin-bottom: 4em; border: 0 !important" />
+<div>
+	<h2>Недавние рассказы</h2>
+	{{ range first 3 (where .Site.Pages "Section" "stories") }}
+	{{ .Render "summary"}}
+	{{ end }}
+</div>
+{{ end }}
+
+{{ partial "body_after.html" . }}

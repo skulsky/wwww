@@ -1,0 +1,4 @@
+<a class="mdl-navigation__link {{ if or (eq .Section "stories") (eq .Title "Stories") }} is-active {{ end }}" href="/stories" title="Рассказы">Рассказы</a>
+<a class="mdl-navigation__link {{ if or (eq .Section "blog") (eq .Title "Blog") }} is-active {{ end }}" href="/blog" title="Блог">Блог</a>
+<a class="mdl-navigation__link {{ if or (eq .Section "various") (eq .Title "Various") }} is-active {{ end }}" href="/various" title="Разное">Разное</a>
+<a class="mdl-navigation__link last {{ if eq .Section "nachalo" }} is-active {{ end }}" href="/nachalo" title="О себе">О себе</a>

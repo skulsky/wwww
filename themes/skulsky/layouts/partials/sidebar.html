@@ -10,18 +10,14 @@
             <li id="sideblog">
                 <h3><b>Блог.</b> Недавнее</h3>
                 <ul>
-                    {{ range $blog  }}
-                    {{ .Render "li"}}
-                    {{ end }}
+{{ range $blog  }}{{ .Render "li"}}{{ end }}
                 </ul>
             </li>
             <li id="sidestories">
                 <h3><b>Рассказы.</b> Новые</h3>
                 {{ if gt (len $stories) 0 }}
                 <ul>
-                    {{ range $stories }}
-                    {{ .Render "li"}}
-                    {{ end }}
+{{ range $stories }}{{ .Render "li"}}{{ end }}
                 </ul>
 
                 <p><br /><a href="/stories"><em>Все рассказы списком</em></a></p>
