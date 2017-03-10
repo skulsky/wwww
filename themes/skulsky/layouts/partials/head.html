@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <base href="{{ .Site.BaseURL }}">
-    <title>{{ if ( not .IsPage ) }} {{if (eq .Section "blog")}}{{ .Site.Data.nodes.blog.title }}{{ end }}{{if (eq .Section "stories")}}{{ .Site.Data.nodes.stories.title }}{{ end }}{{if (eq .Section "various")}}{{ .Site.Data.nodes.various.title }}{{ end }} {{ else }} {{.Title}} {{ end }}</title>
+    <title>{{ if ( not .IsPage ) }}{{if (eq .Section "blog")}}{{ .Site.Data.nodes.blog.title }}{{ end }}{{if (eq .Section "stories")}}{{ .Site.Data.nodes.stories.title }}{{ end }}{{if (eq .Section "various")}}{{ .Site.Data.nodes.various.title }}{{ end }}{{ else }}{{.Title}}{{ end }}</title>
 	
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="{{ if ( not .IsPage ) }} {{if (eq .Section "blog")}}{{ .Site.Data.nodes.blog.description }}{{ end }}{{if (eq .Section "stories")}}{{ .Site.Data.nodes.stories.description }}{{ end }}{{if (eq .Section "various")}}{{ .Site.Data.nodes.various.description }}{{ end }} {{ else }} {{ .Description }} {{ end }}">
