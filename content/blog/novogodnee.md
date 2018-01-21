@@ -1,7 +1,6 @@
 +++
 date = "2018-01-21T11:45:34+00:00"
 description = ""
-draft = true
 title = "Новогоднее"
 
 +++
