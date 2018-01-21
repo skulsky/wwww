@@ -1,0 +1,19 @@
+---
+hide_body: false
+fields:
+- name: title
+  type: text
+  label: "Заголовок"
+- name: description
+  type: textarea
+  label: "Описание"
+- name: date
+  type: datetime
+  label: "Дата"
+- type: text
+  label: "Тип"
+  name: type
+  description: blog | stories | various
+  default: various
+  config:
+    required: true
